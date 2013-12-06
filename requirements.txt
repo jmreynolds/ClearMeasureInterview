@@ -1,0 +1,14 @@
+Small program
+1-100
+divisible by 3 - fizz
+divisible by 5 - buzz
+
+Pass in arbitrary range
+
+Reusable Library
+
+Test coverage
+
+One more feature - Pass in replacement rules
+	Divisors and words
+	Arbitrary number of replacement rules
