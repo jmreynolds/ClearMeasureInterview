@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace OurCoolThings
@@ -38,9 +37,6 @@ namespace OurCoolThings
                         
                 }
 
-                //if (i%3 == 0) outPut = "Fizz";
-                //if (i%5 == 0) outPut = "Buzz";
-                //if (i%3 == 0 && i%5 == 0) outPut = "FizzBuzz";
                 yield return outPut;
             }
         }

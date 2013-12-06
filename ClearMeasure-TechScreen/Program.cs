@@ -8,13 +8,13 @@ namespace ClearMeasure_TechScreen
     {
         static void Main(string[] args)
         {
-            var firstNumber = 1;
-            var lastNumber = 1000000000;
-            var rules = new List<ReplacementRules>()
+            const int firstNumber = 1;
+            const int lastNumber = 1000000000;
+            var rules = new List<ReplacementRules>
             {
-                new ReplacementRules(){Divisors = new List<int>(){3}, Label = "Fizz"},
-                new ReplacementRules(){Divisors = new List<int>(){5}, Label = "Buzz"},
-                new ReplacementRules(){Divisors = new List<int>(){3,5}, Label = "FizzBuzz"},
+                new ReplacementRules {Divisors = new List<int> {3}, Label = "Fizz"},
+                new ReplacementRules {Divisors = new List<int> {5}, Label = "Buzz"},
+                new ReplacementRules {Divisors = new List<int> {3,5}, Label = "FizzBuzz"},
             };
             //var fizzBuzz = Utilities.FizzBuzzer(firstNumber, lastNumber);
             foreach (var item in Utilities.FizzBuzzer(firstNumber,  lastNumber, rules))
